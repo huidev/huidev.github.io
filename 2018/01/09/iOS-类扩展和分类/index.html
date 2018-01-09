@@ -316,22 +316,27 @@
   
   
   
-  <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+
+  
+
+  
+
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
-  var cloudTieConfig = {
-    url: "//babys.ink/2018/01/09/iOS-类扩展和分类/", 
-    sourceId: "iOS-类扩展和分类",
-    productKey: "true",
-    target: "cloud-tie-wrapper"
-  };
+var gitment = new Gitment({
+  id: "//babys.ink/2018/01/09/iOS-类扩展和分类/",
+  owner: 'true',
+  repo: 'git@github.com:huidev/huidev.github.io.git',
+  oauth: {
+    client_id: '3f2e5d57b36eba4912ae',
+    client_secret: 'ab944ad9971944bb7de9986db7fb20aff2e99f4c',
+  },
+})
+gitment.render('gitment-ctn')
 </script>
-<script src="//img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
-  
-
-  
-
-  
-
   
 
 
