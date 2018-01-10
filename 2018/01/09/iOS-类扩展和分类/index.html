@@ -15,7 +15,7 @@
 <meta property="og:url" content="//babys.ink/2018/01/09/iOS-类扩展和分类/index.html">
 <meta property="og:site_name" content="Baker的博客">
 <meta property="og:description" content="category and extension的官方文档  类别的作用   将类的实现分散到多个不同文件或多个不同框架中：相当于文件瘦身（把类似作用的方法整理一块）方便代码管理 创建对私有方法的前向引用：如果其他类中的方法未实现，在你访问其他类的私有方法时编译器报错这时使用类别，在类别中声明这些方法（不必提供方法实现），编译器就不会再产生警告 向对象添加非正式协议：创建一个NSObject的类别称为">
-<meta property="og:updated_time" content="2018-01-10T05:21:53.000Z">
+<meta property="og:updated_time" content="2018-01-10T07:10:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iOS 类扩展和分类">
 <meta name="twitter:description" content="category and extension的官方文档  类别的作用   将类的实现分散到多个不同文件或多个不同框架中：相当于文件瘦身（把类似作用的方法整理一块）方便代码管理 创建对私有方法的前向引用：如果其他类中的方法未实现，在你访问其他类的私有方法时编译器报错这时使用类别，在类别中声明这些方法（不必提供方法实现），编译器就不会再产生警告 向对象添加非正式协议：创建一个NSObject的类别称为">
@@ -53,7 +53,7 @@
 		  <h1 class="header-author"><a href="/">Baker</a></h1>
 		</hgroup>
 		
-		<p class="header-subtitle">靡有不初，鲜克有终</p>
+		<p class="header-subtitle">靡有不初，鲜克有终;人生就像是一场旅行，不必在乎目的地，重要的是沿途的风景以及看风景的心情！留下思索、分享感悟</p>
 		
 
 		<nav class="header-menu">
@@ -62,6 +62,10 @@
 				<li><a href="/">主页</a></li>
 	        
 				<li><a href="/tags/随笔/">随笔</a></li>
+	        
+				<li><a href="/tags/技术/">技术</a></li>
+	        
+				<li><a href="/tags/相册/">相册</a></li>
 	        
 			</ul>
 		</nav>
@@ -113,9 +117,13 @@
 			  <h1 class="header-author js-header-author">Baker</h1>
 			</hgroup>
 			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>靡有不初，鲜克有终<i class="icon icon-quo-right"></i></p>
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>靡有不初，鲜克有终;人生就像是一场旅行，不必在乎目的地，重要的是沿途的风景以及看风景的心情！留下思索、分享感悟<i class="icon icon-quo-right"></i></p>
 			
 			
+			
+				
+			
+				
 			
 				
 			
@@ -138,12 +146,16 @@
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 50%">
+				<ul style="width: 70%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 25%"><a href="/tags/随笔/">随笔</a></li>
+		        
+					<li style="width: 25%"><a href="/tags/技术/">技术</a></li>
+		        
+					<li style="width: 25%"><a href="/tags/相册/">相册</a></li>
 		        
 				</ul>
 			</nav>
@@ -257,6 +269,17 @@
 	</div>
 
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/技术//" class="article-tag-list-link color3">技术</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -473,6 +496,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">技术</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">iOS</a>
               </li>
              
@@ -529,27 +556,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
         <ul class="search-ul">
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
+              <a href="https://weibo.com/u/2867839932" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>微博</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
+              <a href="https://www.jianshu.com/u/59c6edfdbeef" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>简书</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
+              <a href="https://github.com/huidev" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>github</a>
             </li>
           
         </ul>
@@ -560,7 +575,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">低调的codedog</div>
   	  	
     	</section>
     
